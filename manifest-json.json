@@ -1,69 +1,21 @@
 {
   "name": "SIAK Calendar - Alessandro Giannoulidis",
   "short_name": "SIAK Calendar",
-  "description": "Widget calendario per Alessandro Giannoulidis - SIAK con supporto widget Android nativo",
-  "start_url": "./?widget=true&transparent=true&compact=true",
+  "description": "Widget calendario per Alessandro Giannoulidis - SIAK",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#667eea",
   "theme_color": "#4a9eff",
-  "orientation": "portrait-primary",
-  "scope": "./",
-  "lang": "it",
-  "dir": "ltr",
-  "categories": ["productivity", "business", "tools", "calendar"],
   "icons": [
     {
       "src": "icon-192.png",
       "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "maskable any"
+      "sizes": "192x192"
     },
     {
       "src": "icon-512.png", 
       "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "icon-72.png",
-      "type": "image/png", 
-      "sizes": "72x72"
-    },
-    {
-      "src": "icon-96.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "icon-128.png",
-      "type": "image/png",
-      "sizes": "128x128"
-    },
-    {
-      "src": "icon-144.png",
-      "type": "image/png",
-      "sizes": "144x144"
+      "sizes": "512x512"
     }
-  ],
-  "shortcuts": [
-    {
-      "name": "Widget Calendario",
-      "short_name": "Widget",
-      "description": "Apri il widget calendario",
-      "url": "./?widget=true&compact=true",
-      "icons": [{ "src": "icon-96.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "Impostazioni",
-      "short_name": "Config", 
-      "description": "Configura il widget",
-      "url": "./?settings=true",
-      "icons": [{ "src": "icon-96.png", "sizes": "96x96" }]
-    }
-  ],
-  "related_applications": [],
-  "prefer_related_applications": false,
-  "launch_handler": {
-    "client_mode": "navigate-existing"
-  }
+  ]
 }
